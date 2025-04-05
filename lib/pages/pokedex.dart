@@ -50,7 +50,7 @@ class _PokedexScreenState extends State<PokedexScreen> {
           filteredPokemonList = pokemonList;
         });
       } else {
-        throw Exception('Erro ao carrega Pokémon');
+        throw Exception('Erro ao carregar Pokémon');
       }
     } catch (e) {
       print('Erro na requisição: $e');
@@ -249,7 +249,7 @@ class PokemonDetailScreen extends StatelessWidget {
                         style:
                             const TextStyle(fontSize: 18, color: Colors.white)),
                     Text(
-                        'Peso: ${(pokeminData['width'] / 10).toStringAsFixed(1)} Kg',
+                        'Peso: ${(pokeminData['weight'] / 10).toStringAsFixed(1)} Kg',
                         style:
                             const TextStyle(fontSize: 18, color: Colors.white)),
                     const SizedBox(height: 10),

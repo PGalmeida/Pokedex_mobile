@@ -14,6 +14,7 @@ dependencies:
   firebase_core: ^2.20.0
   firebase_auth: ^4.17.0
   firebase_auth_web: ^5.8.13
+  flutter_launcher_icons: ^0.14.3
 
 
 
@@ -28,6 +29,7 @@ flutter:
     - assets/pokeball.gif
     - assets/squirtle1.png
     - assets/squirtle2.png
+    - assets/icon.png
 
   # fonts:
   #   - family: Schyler
