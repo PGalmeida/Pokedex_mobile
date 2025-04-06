@@ -1,19 +1,38 @@
-# pokedex
+# Pokédex Mobile
 
-A new Flutter project created with FlutLab - https://flutlab.io
+Uma Pokédex desenvolvida com Dart e Flutter, que permite aos usuários visualizar uma lista de Pokémons e obter detalhes como imagem, tipo, e nome. Ideal para praticar consumo de API REST e criação de interfaces responsivas em Flutter.
 
-## Getting Started
+## ✨ Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Listagem dos Pokémons com nome, tipo e imagem  
+- Tela de detalhes com mais informações sobre o Pokémon selecionado  
+- Layout responsivo e agradável  
+- Consumo de API REST (PokéAPI)
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+## 🚀 Tecnologias
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-## Getting Started: FlutLab - Flutter Online IDE
+- [Dart](https://dart.dev/)
+- [Flutter](https://flutter.dev/)
+- [PokéAPI](https://pokeapi.co/)
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+## 📱 Imagens do App
+
+![preview](https://imgur.com/QW7fMD2.png)
+![preview](https://imgur.com/FT7IvkO.png)
+![preview](https://imgur.com/rYnx8Ft.png)
+![preview](https://imgur.com/geL8dd3.png)
+
+## 📦 Como executar
+
+Clone o repositório e execute o projeto com o Flutter:
+
+```bash
+git clone https://github.com/PGalmeida/Pokedex_mobile.git
+cd Pokedex_mobile
+flutter pub get
+flutter run
+```
+
+> É necessário ter o Flutter instalado e configurado corretamente na sua máquina.
